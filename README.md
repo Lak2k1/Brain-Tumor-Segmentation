@@ -27,6 +27,8 @@ The ResUNET architecture is designed to effectively segment brain tumors in MRI 
 
 The model's loss function was the Focal Tversky loss, which combines the Tversky index with a focal factor to emphasize harder-to-segment regions. The Tversky index was also used as the evaluation metric. 
 ![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/Tversky%20Index.png)
+
+
 The α and β parameters (α+β=1), they control the relative importance of false positives and false negatives when measuring the similarity between two binary masks. 
 In my case where I've used α = 0.7, it means I've given more importance to false negatives compared to false positives when calculating the Tversky index.
 While the tversky loss is defined as 1-tversky index.
