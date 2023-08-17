@@ -17,7 +17,8 @@ The ResUNET architecture is designed to effectively segment brain tumors in MRI 
 - Residual blocks are used to enable the model to learn and propagate features effectively.
 - Upsampling is performed to restore the spatial resolution of the feature maps.
 - Concatenation is employed to fuse features from different stages and aid in accurate segmentation.
-
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/resunet1.png)
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/resunet2.png)
 ## Loss Function and Evaluation Metric
 
 The model's loss function was the Focal Tversky loss, which combines the Tversky index with a focal factor to emphasize harder-to-segment regions. The Tversky index was also used as the evaluation metric. 
