@@ -4,6 +4,9 @@
 
 This repository contains the implementation of a brain tumor segmentation model using the ResUNET architecture. The model is trained to segment brain tumors in MRI images, providing accurate and detailed tumor masks. The ResUNET architecture utilizes residual blocks, batch normalization, max pooling, upsampling, and concatenation to achieve state-of-the-art performance in segmentation tasks.
 
+## Dataset
+The [training dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation) consists of 3929 MRI images, out of which 1373 images are accompanied by masked tumor images. This dataset is used to train the ResUNET model for brain tumor segmentation.
+
 ## Model Architecture
 
 The ResUNET architecture is designed to effectively segment brain tumors in MRI images. Here's a brief overview of the model architecture and key components:
@@ -32,8 +35,14 @@ The model was trained for up to 200 epochs; however, training stopped at epoch 1
 ## Test Performance
 On the test dataset, the segmentation Tversky index was measured to be 86.61%, demonstrating the model's ability to accurately segment brain tumors in previously unseen data.
 ![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/Segmentation%20tversky.png)
-## Dataset
-The [training dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation) consists of 3929 MRI images, out of which 1373 images are accompanied by masked tumor images. This dataset is used to train the ResUNET model for brain tumor segmentation.
+
+## Results
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/result1.png)
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/result2.png)
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/result3.png)
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/result4.png)
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/result5.png)
+
 
 ## Acknowledgments
 This project was inspired by the need for accurate and efficient brain tumor segmentation techniques. We acknowledge the contributions of the open-source community and the research community for providing valuable resources and insights.
