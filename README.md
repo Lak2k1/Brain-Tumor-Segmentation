@@ -1,4 +1,5 @@
 # Brain Tumor Segmentation using ResUNET
+Link to [KAGGLE NOTEBOOK](https://www.kaggle.com/code/laksheetmathur/brain-tumor-mri-segmentation/notebook?scriptVersionId=140123540)
 
 ## Overview
 
