@@ -27,6 +27,7 @@ The model was trained for up to 200 epochs; however, training stopped at epoch 1
 - Validation Loss: 0.1824
 - Validation Tversky: 0.8964
 - Learning Rate: 8.0000e-06
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/tversky%20score%20and%20loss.png)
 
 ## Test Performance
 On the test dataset, the segmentation Tversky index was measured to be 86.61%, demonstrating the model's ability to accurately segment brain tumors in previously unseen data.
