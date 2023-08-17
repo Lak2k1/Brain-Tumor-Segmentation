@@ -32,7 +32,7 @@ The model was trained for up to 200 epochs; however, training stopped at epoch 1
 On the test dataset, the segmentation Tversky index was measured to be 86.61%, demonstrating the model's ability to accurately segment brain tumors in previously unseen data.
 
 ## Dataset
-The training dataset consists of 3929 MRI images, out of which 1373 images are accompanied by masked tumor images. This dataset is used to train the ResUNET model for brain tumor segmentation.
+The ![training dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation) consists of 3929 MRI images, out of which 1373 images are accompanied by masked tumor images. This dataset is used to train the ResUNET model for brain tumor segmentation.
 
 ## Acknowledgments
 This project was inspired by the need for accurate and efficient brain tumor segmentation techniques. We acknowledge the contributions of the open-source community and the research community for providing valuable resources and insights.
