@@ -19,6 +19,8 @@ The ResUNET architecture is designed to effectively segment brain tumors in MRI 
 - Concatenation is employed to fuse features from different stages and aid in accurate segmentation.
 ![Image explanation](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/resunet1.png)
 
+
+
 ![Model explanation](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/resunet2.png)
 ## Loss Function and Evaluation Metric
 
