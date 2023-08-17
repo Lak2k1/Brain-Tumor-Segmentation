@@ -26,6 +26,7 @@ The ResUNET architecture is designed to effectively segment brain tumors in MRI 
 ## Loss Function and Evaluation Metric
 
 The model's loss function was the Focal Tversky loss, which combines the Tversky index with a focal factor to emphasize harder-to-segment regions. The Tversky index was also used as the evaluation metric. 
+![](https://github.com/Lak2k1/Brain-Tumor-Segmentation/blob/main/Tversky%20Index.png)
 
 ## Training Details
 The model was trained for up to 200 epochs; however, training stopped at epoch 148 due to early stopping. At that point, the model achieved the following results on the validation data:
